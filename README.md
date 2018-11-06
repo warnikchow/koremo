@@ -36,7 +36,7 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
   author={Cho, Won Ik},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/warnikchow/koremo}
+  howpublished = {\url{https://github.com/warnikchow/koremo}}
   year={2018}
 }
 ```
