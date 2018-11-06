@@ -33,7 +33,7 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
 ```
 @article{cho2018koremo,
   title={KorEmo: 5-class Korean emotion classifier},
-  author={Won Ik Cho},
+  author={Cho, Won Ik},
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/warnikchow/koremo}
