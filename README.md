@@ -1,5 +1,5 @@
 # Koremo
-5-class Korean emotion clssifier
+5-class Korean emotion classifier
 
 ## Requirements
 librosa, Keras (TensorFlow), Numpy
@@ -28,7 +28,18 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
   year={2018}
 }
 ```
-* Cite the article for EITHER the reference of the classification criteria or the usage of the toolkit.
+* Cite the article for EITHER the reference of the classification criteria and the concept of acoustic feature-based Korean emotion classification.
+* Cite THIS repository for the usage of the toolkit.
+```
+@article{cho2018koremo,
+  title={KorEmo: 5-class Korean emotion classifier},
+  author={Won Ik Cho},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/warnikchow/koremo}
+  year={2018}
+}
+```
 
 ## System architecture
 * The model adopts a concatenated structure of CNN and BiLSTM Self-attention, as in [Korinto](https://github.com/warnikchow/korinto), and the only change is the third convolutional layer window (3 by 3 >> 5 by 5)
