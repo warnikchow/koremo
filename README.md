@@ -40,7 +40,7 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
   year={2018}
 }
 ```
-* *e.g.) The emotion label was tagged by KorEmo\cite{cho2018koremo} which bases originally on the acoustic data constructed for Korean speech synthesis\cite{lee2018acoustic}.
+* *e.g.) The emotion label was tagged by KorEmo\cite{cho2018koremo} which bases originally on the acoustic data constructed for Korean speech synthesis\cite{lee2018acoustic}.*
 
 ## System architecture
 * The model adopts a concatenated structure of CNN and BiLSTM Self-attention, as in [Korinto](https://github.com/warnikchow/korinto), and the only change is the third convolutional layer window (3 by 3 >> 5 by 5)
