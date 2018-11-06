@@ -7,15 +7,16 @@ librosa, Keras (TensorFlow), Numpy
 ## Simple usage
 <pre><code> from koremo import pred_emo(filename) </code></pre>
 * file in *.wav* format is recommended
+* Output in five labels **0: Angry**, **1: Fear**, **2: Joy**, **3: Normal**, **4: Sad**
 
 ## Data preperation
 Voice recorded by two Korean voice actors (1 male, 1 female)
-### Emotion categorization
-* Angry (Female 1000, Male 800)
-* Fear (Female 500, Male 550)
-* Joy (Female 1000, Male 1000)
-* Normal (Female 2700, Male 2699)
-* Sad (Female 500, Male 800)
+### Categorizing emotions
+* Angry (Female: 1,000 / Male: 800)
+* Fear (Female: 500 / Male: 550)
+* Joy (Female: 1,000 / Male: 1,000)
+* Normal (Female: 2,700 / Male: 2,699)
+* Sad (Female: 500 / Male: 800)
 ### The dataset was primarily constructed for the following paper:
 ```
 @article{lee2018acoustic,
