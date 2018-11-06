@@ -8,6 +8,7 @@ librosa, Keras (TensorFlow), Numpy
 <pre><code> from koremo import pred_emo(filename) </code></pre>
 * file in *.wav* format is recommended
 * Output in five labels **0: Angry**, **1: Fear**, **2: Joy**, **3: Normal**, **4: Sad**
+* ONLY ACOUSTIC DATA is utilized
 
 ## Data preperation
 Voice recorded by two Korean voice actors (1 male, 1 female)
