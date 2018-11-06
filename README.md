@@ -1,4 +1,4 @@
-# Koremo
+# KorEmo
 5-class Korean emotion classifier
 
 ## Requirements
