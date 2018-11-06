@@ -28,8 +28,8 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
   year={2018}
 }
 ```
-* Cite the article for EITHER the reference of the classification criteria and the concept of acoustic feature-based Korean emotion classification. Note that the source *.wav* files are not disclosed currently.
-* Also, cite this repository for the usage of the toolkit.
+* Cite the [ARTICLE](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1598.pdf) for EITHER the reference of the classification criteria and the concept of acoustic feature-based Korean emotion classification. Note that the source *.wav* files are not disclosed currently.
+* Also, cite THIS repository for the usage of the toolkit.
 ```
 @article{cho2018koremo,
   title={KorEmo: 5-class Korean emotion classifier},
