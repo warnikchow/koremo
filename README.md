@@ -6,7 +6,7 @@ librosa, Keras (TensorFlow), Numpy
 
 ## Simple usage
 <pre><code> from koremo import pred_emo(filename) </code></pre>
-* file in .wav format is recommended
+* file in *.wav* format is recommended
 
 ## Data preperation
 Voice recorded by two Korean voice actors (1 male, 1 female)
@@ -30,6 +30,6 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
 
 ## System architecture
 * The model adopts a concatenated structure of CNN and BiLSTM Self-attention, as in [Korinto](https://github.com/warnikchow/korinto), and the only change is the third convolutional layer window (3 by 3 >> 5 by 5)
-* The best model shows accuracy: 96.45% and F1: 0.9597, wit train:test set ratio 9:1.
+* The best model shows **accuracy: 96.45%** and **F1: 0.9597**, with train:test set ratio 9:1.
 
 
