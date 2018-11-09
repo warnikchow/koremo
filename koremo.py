@@ -48,11 +48,7 @@ if version[0]<3:
   print('Version upgrade required!')
 
 from keras.models import load_model
-if version[1]<=5:
-  mse_crs = load_model('model/total_s_rmse_cnn_rnnself-20-0.9645-f0.9644.hdf5')
-elif version[1]==6:
-  mse_crs = load_model('model/model_for_6.h5')
-  mse_crs.load_weights('model/total_s_rmse_cnn_rnnself-20-0.9645-f0.9644.hdf5')
+mse_crs = load_model('model/total_s_rmse_cnn_rnnself-20-0.9645-f0.9644.hdf5')
 
 def make_data(filename):
   data=np.zeros((1,mlen,128))
