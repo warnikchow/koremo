@@ -8,44 +8,7 @@ from keras.backend.tensorflow_backend import set_session
 config = tf.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.01
 set_session(tf.Session(config=config))
-
-from keras.models import Sequential, Model
-from keras.layers import Input, Embedding, LSTM, GRU, SimpleRNN, Dense, Lambda
 import keras.backend as K
-from keras.callbacks import ModelCheckpoint
-import keras.layers as layers
-
-from keras import optimizers
-adam_half = optimizers.Adam(lr=0.0005)
-adam_half_2 = optimizers.Adam(lr=0.0002)
-
-from keras.preprocessing import sequence
-from keras.layers.core import Dense, Dropout, Activation, Flatten, Reshape
-from keras.layers.embeddings import Embedding
-
-from random import random
-from numpy import array
-from numpy import cumsum
-from keras.layers import TimeDistributed
-from keras.layers import Bidirectional
-from keras.callbacks import ModelCheckpoint
-from keras.layers.normalization import BatchNormalization
-
-##### f1 score ftn.
-from keras.callbacks import Callback
-from sklearn import metrics
-from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
-
-from keras.layers import Input, Embedding, LSTM, Dense, Lambda
-from keras.models import Model
-import keras.backend as K
-from keras.layers.normalization import BatchNormalization
-
-import sys
-version = sys.version_info
-
-if version[0]<3:
-  print('Version upgrade required!')
 
 from keras.models import load_model
 mse_crs = load_model('model/total_s_rmse_cnn_rnnself-20-0.9645-f0.9644.hdf5')
