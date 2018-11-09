@@ -2,7 +2,7 @@
 5-class Korean emotion classifier
 
 ## Requirements
-python >= 3.5, librosa, Keras (TensorFlow), Numpy
+python == 3.5, librosa, Keras (TensorFlow), Numpy
 
 ## Simple usage
 <pre><code> from koremo import pred_emo(filename) </code></pre>
