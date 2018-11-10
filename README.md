@@ -45,6 +45,6 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
 ## System architecture
 * The model adopts a concatenated structure of CNN and BiLSTM Self-attention, as in [KorInto](https://github.com/warnikchow/korinto), and the only change is the third convolutional layer window (3 by 3 >> 5 by 5)
 * The model was trained by the code in **start.py** (the data is not provided), in the environment of python 3.5.
-* The best model shows **Accuracy: 96.45%** and **F1: 0.9597**, with train:test set ratio 9:1.
+* The best model shows **Accuracy: 96.45%** and **F1: 0.9644**, with train:test set ratio 9:1.
 
 
