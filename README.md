@@ -2,9 +2,9 @@
 5-class Korean emotion classifier
 
 ## Requirements
-python == 3.5, librosa, Keras (TensorFlow), Numpy<\br>
-**If you are version in python >= 3.6, refer to model_6.h5**<\br>
-**Also, If your CUDA is 10, then replace the hdf5 file with another model in the forder**
+python == 3.5, librosa, Keras (TensorFlow), Numpy<br/>
+**If you are version in python >= 3.6, refer to model_6.h5**<br/>
+**Also, if your CUDA is 10, then replace the hdf5 file with another model in the forder**
 
 ## Simple usage
 <pre><code> from koremo import pred_emo(filename) </code></pre>
