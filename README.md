@@ -33,12 +33,12 @@ Voice recorded by two Korean voice actors (1 male, 1 female)
 * Cite the [ARTICLE](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1598.pdf) for EITHER the reference of the classification criteria and the concept of acoustic feature-based Korean emotion classification. Note that the source *.wav* files are not disclosed currently.
 * Also, cite THIS repository for the usage of the toolkit.
 ```
-@article{cho2018koremo,
-  title={KorEmo: 5-class Korean emotion classifier},
+@misc{cho2018koremo,
+  title={KorEmo: 5-class Korean speech emotion classifier},
   author={Cho, Won Ik},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/warnikchow/koremo}}
+  howpublished = {\url{https://github.com/warnikchow/koremo}},
   year={2018}
 }
 ```
