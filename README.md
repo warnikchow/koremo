@@ -1,5 +1,5 @@
 # KorEmo
-5-class Korean emotion classifier
+5-class Korean speech emotion classifier
 
 ## Requirements
 python == 3.5, librosa, Keras (TensorFlow), Numpy<br/>
